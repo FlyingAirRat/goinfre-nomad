@@ -1,4 +1,5 @@
-# goinfre-nomad, a system service that leverages the volatile local directory ~/goinfre to seamlessly use space-hogging apps across any node in the 42 cluster.
+# goinfre-nomad
+a system service that leverages the volatile local directory ~/goinfre to seamlessly use space-hogging apps across any node in the 42 cluster.
 
 ## Introduction
 goinfre-nomad is a service that leverages the volatile local ~/goinfre to seamlessly use space-hogging apps across any node in the 42 cluster.
