@@ -1,0 +1,11 @@
+[Unit]
+Description=Seamlessly use space-hogging apps across any 42 cluster node by leveraging local ~/goinfre
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=%h/.local/bin/goinfre-nomad-login.sh
+ExecStop=%h/.local/bin/goinfre-nomad-logout.sh
+
+[Install]
+WantedBy=default.target
